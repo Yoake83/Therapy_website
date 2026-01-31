@@ -15,7 +15,7 @@ export default function Specialties() {
     {
       title: 'Burnout & Perfectionism',
       description: 'Pushing through stress can leave you disconnected from yourself. Therapy is a space to slow down and rediscover a more sustainable way of living.',
-      image: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80'
+      image: '/new.avif'
     }
   ]
 
