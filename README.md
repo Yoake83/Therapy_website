@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lilac Template Clone
 
-## Getting Started
+A pixel-perfect clone of the Lilac therapy website template built with Next.js 14 and Tailwind CSS.
 
-First, run the development server:
+##  Features
 
+- ✅ Fully responsive design (mobile, tablet, desktop)
+- ✅ Modern Next.js 14 with App Router
+- ✅ Tailwind CSS for styling
+- ✅ TypeScript for type safety
+- ✅ Smooth scroll navigation
+- ✅ Accordion component for professional background
+- ✅ Optimized images with Next.js Image component
+
+##  Installation
+
+1. Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Run the development server:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+##  Build for Production
 
-## Learn More
+```bash
+npm run build
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+lilac-clone/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── Header.tsx
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Specialties.tsx
+│   ├── Support.tsx
+│   ├── Meet.tsx
+│   ├── ProfessionalBackground.tsx
+│   ├── CTA.tsx
+│   └── Footer.tsx
+├── public/
+├── next.config.js
+├── tailwind.config.js
+├── tsconfig.json
+└── package.json
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+##  Color Scheme
 
-## Deploy on Vercel
+- Background Beige: `#E8E4DD`
+- Card Background: `#C5BDB3`
+- Dark Green: `#3D4A3E`
+- Light Beige: `#D5CFC5`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##  Sections
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Header** - Sticky navigation with Logo, Blog, Contact
+2. **Hero** - Full-screen hero with circular image and headline
+3. **About** - Split layout introducing the service
+4. **Specialties** - Three cards showcasing therapy specialties
+5. **Support** - List of challenges with image
+6. **Meet** - Personal introduction section
+7. **Professional Background** - Accordion with credentials
+8. **CTA** - Call-to-action section
+9. **Footer** - Simple copyright footer
+
+##  Deployment
+
+### Deploy to Vercel
+
+1. Push your code to GitHub
+2. Import the repository on [Vercel](https://vercel.com)
+3. Click Deploy
+
+##  License
+
+This is a practice project for educational purposes.
